@@ -1,0 +1,332 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+ul{
+    list-style: none;
+}
+header{
+    position: fixed;
+    width: 100%;
+    margin: auto;
+    top: -20px;
+    background-color: #fff;
+    z-index: 9999
+}
+.head{
+    margin-left: 8px;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 30px;
+}
+.header__text ul li{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888F;
+}
+
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0 20px 0;
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+
+.header__image{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.header__text ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.simple{
+    
+        margin: 60px auto;
+        width: 1140px;
+        height: 600px;
+        background-image:url(./img/Bitmap.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        border-radius: 10px;
+        }
+.simple .container2 h1 {
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    padding-top: 100px;
+    width: 493px;
+    height: 150px;
+}
+ .simple .container2 p{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    width: 417px;
+    height: 78px;
+ }
+.container2{
+    width: 100%;
+    max-width: 970px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+.collection{
+    width: 100%;
+    max-width: 970px;
+    padding: 0 16px;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+.collection .collect{
+    padding: 20px 0 10px 0;
+    position: relative;
+    top: 130px;
+    height: 80px;
+    font-family: Fraunces;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 136px;
+    line-height: 72px;
+    text-align: center;
+    color: #83888F;
+    background-image: linear-gradient(#999 20%, #fff 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-clip: text;
+}
+.collection__cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.colllection__card h4{
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #333D4B;
+}
+.colllection__card p{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #333D4B;
+}
+.choose{
+    margin-top: 200px;
+}  
+.choose .container{
+    background-color: #2C343E;
+    padding-top: 100px;
+    height: 520px;
+    position: relative;
+    border-radius: 10px;
+}
+.choose .container > h2{
+    font-family: Fraunces;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 48px;
+    text-align: center;
+    color: #FEFCF7;
+}
+.choose .container > p{
+    width: 533px;
+    margin: auto;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+.choose__cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+}
+.choose__cards .choose_card{
+    background-color: #0E8784;
+    text-align: center;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 45px 45px 45px;
+    border-radius: 10px;
+}
+.choose_card h5{
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #FEFCF7;
+}
+.choose_card p{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FEFCF7;
+}
+.Work .linear{
+    margin-top: 100px;
+    margin-bottom: 80px;
+    width: 760px;
+    height: 2px;
+    background-color: #FDD6BA;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.Work .linear .circle{
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    border: 1px solid #0E8784;
+    background-color: #FEFCF7;
+    z-index: 1;
+    position: relative;
+    top: -15px
+}
+.Work .container2 h4{
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+}
+ .Work{
+    padding-top: 350px;
+}
+.work__numbers{
+    display: flex;
+   
+}
+.work-number{
+    text-align: left;
+    margin-right: 95px;
+  }
+
+.work-number h1{
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FDD6BA;
+}
+.work-number h2{
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+}
+.work-number p{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+}
+.container2 .logo{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+footer .container{
+    background-color: #2C343E;
+    margin-top: 210px;
+}
+.container #footer__box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1200px;
+    height: 120px;
+}
+.container #footer__box .text ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+    color: white;
+}
+.container #footer__box .text ul li{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888F;
+}
+  #footer__box .logo h3{
+    margin-left: 8px;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 30px;
+
+  }
+  button{
+    margin-top: 65px;
+    padding: 15px 30px;
+    background-color: #35C861;
+    border-radius: 6px;
+    font-family: Fraunces;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+    border: none;
+    position: relative;
+    transition: color 0.4s linear;
+    z-index: 0;
+}
+
+
+h1 p  button {
+    color: white;
+}
